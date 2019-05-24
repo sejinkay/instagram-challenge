@@ -5,3 +5,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 40ms (Views: 18.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-05-24 17:57:15 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1582ms (Views: 1571.5ms | ActiveRecord: 0.0ms)
+
+
