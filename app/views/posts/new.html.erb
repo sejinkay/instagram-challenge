@@ -1,5 +1,7 @@
-<h1>New Post</h1>
-
-<%= render 'form', post: @post %>
-
-<%= link_to 'Back', posts_path %>
+<br><br>
+<%= form_for @post do |form| %>
+  <h4><%= form.text_area :message, class: 'messagebox-style', :required => true, :placeholder => 'Write anything!', :size => 30 %>
+    <br><br><%= form.text_area :img_url, class: 'textbox-style', :required => true, :placeholder => 'Add your img URL!' %>
+<br><br>
+  <%= form.submit "Submit", class: 'button' %></h4>
+<% end %>
