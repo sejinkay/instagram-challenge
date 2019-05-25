@@ -1,4 +1,4 @@
-RVM: "2.5.0"
+RVM: "2.6.0"
 
 script:
   - mkdir -p spec && bundle exec rspec spec
